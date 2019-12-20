@@ -2,17 +2,25 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 /* header top */
-.container-fluid {
+.top-header {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 3;
   height: 90px;
-  background-color: #222525;
+  background-color: #232424;
+  border-bottom: 1px solid lightgrey;
 }
-
+.wrap-menu {
+  display: flex;
+  justify-content: space-around;
+}
 .logo {
   line-height: 90px;
   vertical-align: middle;
 }
 .logo img {
-  width: 35%;
+  width: 45%;
 
 }
 .menu {
@@ -56,8 +64,18 @@ body {
 #login:hover{
   color: #a1de41;
 }
+.menu-hamburgher{
+  color: white;
+  font-size: 2em;
+  text-align: right;
+  vertical-align: middle;
+  line-height: 90px;
+}
 @media screen and (max-width:768px) {
 .display-none-md {
   display: none;
+}
+.logo img {
+  width: 60%;
 }
 }
