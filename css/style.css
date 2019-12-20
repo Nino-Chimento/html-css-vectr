@@ -3,20 +3,28 @@ body {
 }
 .container-fluid {
   height: 90px;
-  line-height: 90px;
-  vertical-align: middle;
   background-color: #222525;
 }
-.fixed img {
+
+.logo {
+  line-height: 90px;
+  vertical-align: middle;
+}
+.logo img {
   width: 35%;
+
 }
 .menu {
   list-style: none;
   text-align: right;
+  line-height: 90px;
+  vertical-align: middle;
+
 }
 .menu li {
   display: inline-block;
   padding-right: 10px;
+
 
 }
 .menu a {
@@ -25,4 +33,15 @@ body {
 .menu i  {
   padding-left: 5px;
   color: #838F95;
+}
+.green {
+  border: 2px solid #a1de41;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+.login {
+  color: white;
+  border: 2px solid #838F95;
+  padding: 5px 8px;
+  border-radius: 4px;
 }
