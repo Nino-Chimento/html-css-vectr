@@ -123,3 +123,10 @@ h1 {
   background-color: #212424;
   padding-top: 90px;
 }
+.header-jumbotron img {
+  margin: auto;
+  width: 100%;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  border-radius: 4px;
+}
