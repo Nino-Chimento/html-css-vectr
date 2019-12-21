@@ -126,9 +126,17 @@ h1 {
 .my-jumbotron i {
 color: #3B4246;
 }
-.my-jumbotron {
-  border-top: 1px solid white;
-  border-right: 1px solid white;
-  border-radius: 4px;
+
+.list-icons {
+  list-style: none;
+  text-align: center;
   border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+.list-icons li{
+  font-size: 1.5em;
+  padding: 8px 0;
+}
+.border-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.9);
+
 }
