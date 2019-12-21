@@ -75,7 +75,23 @@ body {
 .display-none-md {
   display: none;
 }
+}
+@media screen and (min-width:768px) {
+  .display-none-lg{
+    display: none;
+  }
+}
 .logo img {
   width: 60%;
 }
+}
+/* /menu */
+/* header bottom */
+.header-bottom {
+  margin-top: 90px;
+  background-color: #232424;
+}
+h1 {
+  color: white;
+  padding-top: 90px;
 }
