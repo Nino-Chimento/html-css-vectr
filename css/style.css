@@ -91,6 +91,7 @@ body {
   margin-top: 80px;
   background-color: #222424;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -109,15 +110,19 @@ h1 {
   text-align: center;
   color: #838F95;
   border: 2px solid #a1de41;
-  padding: 5px 8px;
+  padding: 10px;
   border-radius: 4px;
   width: 150px;
   height: 50px;
-  padding: 10px;
   margin: auto;
-
 }
 
-
-
+/* /title */
+/* jumbotron */
+.header-jumbotron{
+  background-color: #252829;
+  padding-top: 90px;
+}
+.my-jumbotron i {
+color: #3B4246;
 }
