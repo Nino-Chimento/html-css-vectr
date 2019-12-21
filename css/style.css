@@ -84,14 +84,40 @@ body {
 .logo img {
   width: 60%;
 }
-}
+
 /* /menu */
 /* header bottom */
 .header-bottom {
-  margin-top: 90px;
-  background-color: #232424;
+  margin-top: 80px;
+  background-color: #222424;
+  text-align: center;
 }
+
 h1 {
   color: white;
-  padding-top: 90px;
+  font-size: 2em;
+  padding-top:  90px;
+}
+.header-bottom p {
+  color: #838F95;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.header-bottom a {
+  display: block;
+  text-align: center;
+  color: #838F95;
+  border: 2px solid #a1de41;
+  padding: 5px 8px;
+  border-radius: 4px;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  margin: auto;
+
+}
+
+
+
 }
