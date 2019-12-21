@@ -135,11 +135,19 @@ h1 {
   list-style: none;
   width: 100%;
   margin-top: 20px;
-  
+
 }
 .list-loghi li{
 width: 20%;
 }
 .list-loghi img {
   height: 20%;
+}
+@media screen and (max-width:768px) {
+  .list-loghi li {
+    width: 30%;
+  }
+  .list-loghi img {
+    height: 15%;
+  }
 }
