@@ -120,23 +120,6 @@ h1 {
 /* /title */
 /* jumbotron */
 .header-jumbotron{
-  background-color: #252829;
+  background-color: #212424;
   padding-top: 90px;
-}
-.my-jumbotron i {
-color: #3B4246;
-}
-
-.list-icons {
-  list-style: none;
-  text-align: center;
-  border-left: 1px solid rgba(0, 0, 0, 0.5);
-}
-.list-icons li{
-  font-size: 1.5em;
-  padding: 8px 0;
-}
-.border-top {
-  border-top: 1px solid rgba(0, 0, 0, 0.9);
-
 }
