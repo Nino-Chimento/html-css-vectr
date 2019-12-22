@@ -189,7 +189,7 @@ width: 20%;
   font-size: 1.2em;
   border-bottom: 2px solid;
   color: #24C1ED;
-  padding-bottom: 50px;
+
 }
 .container-book a::after {
   content: ">";
@@ -201,5 +201,8 @@ width: 20%;
 }
 .margin-auto-md {
   margin: auto;
+}
+.margin-top-md {
+  margin-top: 50px;
 }
 }
