@@ -151,3 +151,52 @@ width: 20%;
     height: 15%;
   }
 }
+/* /loghi */
+/* book */
+.container-book {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-book img {
+  width: 100%;
+}
+.container-book h4 {
+  color: #697782;
+  padding-top: 90px;
+  font-size: 1.3em;
+}
+.container-book h2 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.line {
+  border: 1px soldi blue;
+  border-radius: 4px;
+  height: 4px;
+  width: 35px;
+  background-color: #DEEAEE;
+  margin:20px 0;
+}
+.container-book p {
+  color: #697782;
+  font-size: 1em;
+  padding-bottom: 20px;
+}
+.container-book a {
+  font-weight: bolder;
+  font-size: 1.2em;
+  border-bottom: 2px solid;
+  color: #24C1ED;
+  padding-bottom: 50px;
+}
+.container-book a::after {
+  content: ">";
+  margin-left:  5px;
+}
+@media screen and (max-width:998) {
+.text-center-md {
+  text-align: center;
+}
+}
