@@ -254,3 +254,62 @@ width: 20%;
     margin-left: 5%;
   }
 }
+/* slash */
+/* onda */
+.onda {
+  width: 90%;
+  height: 800px;
+  margin: auto;
+  padding-top: 120px;
+  background-image: url(../img/onda.jpg);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  /* background-image: url(img/depositphotos_25713811-stock-illustration-seamless-pattern-with-stylized-waves.jpg); */
+}
+.onda h6{
+  color: #817782;
+  font-size: 0.8em;
+  padding: 20px 0;
+}
+.onda h2 {
+  font-weight: bolder;
+  width: 90%;
+  padding-bottom: 10px;
+}
+.line-white {
+  border: 1px soldi blue;
+  border-radius: 4px;
+  height: 4px;
+  width: 35px;
+  background-color: #F1F6F8;
+  margin-bottom: 10px;
+}
+.onda p {
+  color: #817782;
+  padding-bottom: 20px;
+}
+.onda a {
+  color: #24C1ED;
+  font-weight: bolder;
+  font-size: 1.2em;
+  border-bottom: 2px solid;
+  color: #24C1ED;
+  text-decoration: none;
+}
+.onda i {
+  margin-left: 5px;
+}
+.logo-onda {
+  background-image: url(../img/https___web-static.vectr.com_images_home_vector.svg-0.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-right:  20px;
+}
+.position {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
