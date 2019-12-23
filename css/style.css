@@ -9,6 +9,7 @@ body {
   z-index: 3;
   height: 90px;
   background-color: #232424;
+  background-color: rgba(0, 0, 0, 0.8);
   border-bottom: 1px solid lightgrey;
 }
 .wrap-menu {
