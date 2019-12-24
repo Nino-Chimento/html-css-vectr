@@ -332,3 +332,12 @@ width: 20%;
 .dono p {
   color: #77888E;
 }
+.dono-line {
+  border-right:1px solid lightgrey;
+}
+@media screen and (max-width: 988px) {
+  .border-bottom {
+    border-right: 0px;
+    border-bottom: 1ps solid lightgrey;
+  }
+}
