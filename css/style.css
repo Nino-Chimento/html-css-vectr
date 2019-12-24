@@ -351,10 +351,11 @@ footer {
 }
 .list-footer {
   padding-top: 20px;
+  justify-content: space-around;
 }
 .list-footer h2 {
   color:#A1D0D8;
-  font-size: 1.2em;
+  font-size: 1em;
   padding-top: 20px;
   font-weight: bolder;
 }
@@ -368,5 +369,4 @@ footer {
 .menu-footer a {
   color:#77888E;
   font-size: 1em;
-
 }
