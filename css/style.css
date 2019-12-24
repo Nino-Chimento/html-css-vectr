@@ -370,3 +370,26 @@ footer {
   color:#77888E;
   font-size: 1em;
 }
+.fa-globe-europe {
+  color: #77888E;
+  padding: 5px 0
+}
+.language {
+  border-radius:10px;
+  border: 2px solid lightblue;
+}
+select {
+  background-color: #1E2223;
+  border: 0px;
+  padding: 5px 20px;
+  width: 80%;
+  color: #A1D0D8;
+}
+@media screen and (max-width :800px) {
+.display-none-menu {
+  display: none;
+}
+select {
+  width: 95%;
+}
+}
