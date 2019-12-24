@@ -317,3 +317,18 @@ width: 20%;
   top: 50%;
   right: 0%;
 }
+/* /onda */
+/* dono */
+.dono {
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+}
+.dono h2 {
+  font-weight: bolder;
+  font-size:1.5em;
+  padding: 40px 0;
+}
+.dono p {
+  color: #77888E;
+}
