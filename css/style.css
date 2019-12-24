@@ -336,8 +336,37 @@ width: 20%;
   border-right:1px solid lightgrey;
 }
 @media screen and (max-width: 988px) {
-  .border-bottom {
+  .border-bottom-dono {
     border-right: 0px;
-    border-bottom: 1ps solid lightgrey;
+    border-bottom: 1px solid lightgrey;
   }
+}
+/* /dono */
+/* /main */
+/* footer */
+footer {
+  width: 100%;
+  background-color: #1E2223;
+  margin-top: 50px;
+}
+.list-footer {
+  padding-top: 20px;
+}
+.list-footer h2 {
+  color:#A1D0D8;
+  font-size: 1.2em;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+.menu-footer {
+  padding-left: 0;
+  list-style: none;
+}
+.menu-footer li {
+  text-decoration: none;
+}
+.menu-footer a {
+  color:#77888E;
+  font-size: 1em;
+
 }
