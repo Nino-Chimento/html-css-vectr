@@ -72,6 +72,9 @@ body {
   vertical-align: middle;
   line-height: 90px;
 }
+.fa-bars{
+  cursor: pointer;
+}
 @media screen and (max-width:768px) {
 .display-none-md {
   display: none;
