@@ -2,6 +2,9 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 /* header top */
+.display-none-menu {
+  display: none;
+}
 .top-header {
   position: fixed;
   top:0;
@@ -89,6 +92,20 @@ body {
   padding: 20px;
   color: white;
 }
+.fa-times:hover {
+  cursor: pointer;
+}
+.menu-xs-list {
+  list-style:none;
+  font-weight: bolder;
+  font-size: 1.8em;
+  padding:20px 20px;
+  color: #ECEEEF;
+  text-transform: uppercase;
+
+
+}
+
 @media screen and (max-width:768px) {
 .display-none-md {
   display: none;
